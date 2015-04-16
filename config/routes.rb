@@ -2,6 +2,10 @@ Rails.application.routes.draw do
   get("/step_1", {:controller => "intro", :action => "step_1"})
   get("/step_2", {:controller => "intro", :action => "step_2"})
   get("/step_3", {:controller => "intro", :action => "step_3"})
+  get("/step_4", {:controller => "intro", :action => "step_4"})
+  get("/step_5", {:controller => "intro", :action => "step_5"})
+  get("/step_6", {:controller => "intro", :action => "step_6"})
+  get("/step_7", {:controller => "intro", :action => "step_7"})
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
